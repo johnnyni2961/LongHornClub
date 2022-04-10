@@ -236,16 +236,16 @@ const BuyNowSection = () => {
                 spacing={7}
                 style={{ paddingTop: '8px' }}
               >
-                <Grid item xs={12} sm={6} md={3} lg={3} className={classes.gameAvatar}>
+                <Grid item xs={12} sm={6} className={classes.gameAvatar}>
                   <img src={gameAvatar1} />
                 </Grid>
-                <Grid item xs={12} sm={6} md={3} lg={3} className={classes.gameAvatar}>
+                <Grid item xs={12} sm={6} className={classes.gameAvatar}>
                   <img src={gameAvatar2} />
                 </Grid>
-                <Grid item xs={12} sm={6} md={3} lg={3} className={classes.gameAvatar}>
+                <Grid item xs={12} sm={6} className={classes.gameAvatar}>
                   <img src={gameAvatar3} />
                 </Grid>
-                <Grid item xs={12} sm={6} md={3} lg={3} className={classes.gameAvatar}>
+                <Grid item xs={12} sm={6} className={classes.gameAvatar}>
                   <img src={gameAvatar4} />
                 </Grid>
               </Grid>
